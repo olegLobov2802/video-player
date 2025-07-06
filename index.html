@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="player-container">
+    <!-- Видео-элемент (без стандартных controls) -->
+    <video id="my-video" width="640">
+        <source src="sample.mp4" type="video/mp4">
+        Ваш браузер не поддерживает HTML5 видео.
+    </video>
+
+    <!-- Кастомные контролы -->
+    <div class="controls">
+        <button id="play-button">►</button>
+        <input type="range" id="progress-bar" min="0" value="0">
+        <button id="mute-button">🔊</button>
+        <input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
+        <div id="fullscreen-button">+</div>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
