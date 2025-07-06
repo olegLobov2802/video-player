@@ -1,0 +1,19 @@
+{
+  "name": "video-player",
+  "version": "1.0.0",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olegLobov2802/video-player.git"
+  },
+  "author": "oleg.lobov280214@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olegLobov2802/video-player/issues"
+  },
+  "homepage": "https://github.com/olegLobov2802/video-player#readme",
+  "description": ""
+}
